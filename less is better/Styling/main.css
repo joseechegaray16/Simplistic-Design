@@ -1,0 +1,53 @@
+body {
+    background-image: url(../Images/purple\ room.jpg);
+    background-position-y: 10%;
+    background-position-x: 40%;
+}
+
+h1 {
+    text-align: center;
+    margin: 275px;
+    font-size: 50px;
+    animation-name: fadein;
+    -webkit-animation-duration: 8s;
+            animation-duration: 8s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+
+ #audio {
+     display: none;
+ }
+
+.faders {
+     text-align: center;
+     text-decoration: none;
+     color: black;
+ }
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#toomuch {
+    font-size: 30px;
+}
+
+#best {
+    font-size: 20px;
+}
+
+.concept {
+    margin: 17%;
+    text-align: center;
+    font-family: Gill Sans;
+}
